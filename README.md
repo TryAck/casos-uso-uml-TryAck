@@ -9,9 +9,9 @@ Este repositorio contiene dos ejercicios de diagramas de casos de uso. Por el en
 
 ## Información del alumno
 
-Nombre y Apellidos: Omitidos por motivos de privacidad.
-Seudonimo: TryAck
-Módulo: Entornos de Desarollo (ETS)
-Curso: Primero de Desarollo de Aplicaciones Web (1ºDAW)
+Nombre y Apellidos: Omitidos por motivos de privacidad.  
+Seudonimo: TryAck  
+Módulo: Entornos de Desarollo (ETS)  
+Curso: Primero de Desarollo de Aplicaciones Web (1ºDAW)  
 Descripción de la practica: [Explicado en el comienzo del README](#diagramas-de-casos-de-uso)
 
