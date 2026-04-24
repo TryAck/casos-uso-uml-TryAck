@@ -33,6 +33,8 @@ Se pide:
 * Profesional
 * Sistema
 
+Sistema fue añadido para gestionar la autenticación.
+
 ## Casos de uso
 
 * Iniciar sesión como Cliente
@@ -41,6 +43,8 @@ Se pide:
 * Realizar Consulta
 * Resolver Consulta
 * Añadir Opciones de Mejora
+
+Como los actores Cliente y Profesional tienen permisos distintos, he decidido separar Iniciar sesión entre ambos.
 
 ## Diagrama
 
