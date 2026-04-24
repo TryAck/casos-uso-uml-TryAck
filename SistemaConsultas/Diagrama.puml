@@ -1,0 +1,15 @@
+@startuml
+package "Sistema de consultas" {
+    (Autenticar) <-d- :Sistema:
+    (Iniciar sesión como Cliente) as (loginC)
+    (loginC) .d.> (Autenticar) : {include}
+    (Iniciar sesión como Profesional) as (loginP)
+    (Autenticar) <.l. (loginP) : {include}
+    (Realizar Consulta)
+    (Resolver Consulta) <.u. (Añadir Opciones de Mejora) : {include}
+}
+:Cliente: -d-> (loginC)
+:Cliente: --> (Realizar Consulta)
+(loginP) <-l- :Profesional:
+:Profesional: -u-> (Resolver Consulta)
+@enduml

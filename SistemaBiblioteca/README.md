@@ -42,4 +42,6 @@ Se pide:
 
 # Diagrama
 
-**TODO:** Completar este apartado cuando tenga el codigo PlantUML y el diagrama generado.
+![Diagrama generado con PlantUML basado en el codigo de Diagrama.puml](./Diagrama.png)
+
+Este diagrama fue generado con el codigo que se puede encontrar en `Diagrama.puml`.

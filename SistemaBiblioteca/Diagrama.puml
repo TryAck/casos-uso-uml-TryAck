@@ -1,0 +1,12 @@
+@startuml
+package "Sistema de Biblioteca" {
+    (Acción generica)
+    (Sacar libro en préstamo) as (sacarLibro)
+    (sacarLibro) .u.> (Acción generica) : {include}
+    (Devolver libro prestado) as (devolverLibro)
+    (Acción generica) <.r. (devolverLibro) : {include}
+    (Actualizar catalogo)
+}
+(Acción generica) <-l- :Usuario:
+:Bibliotecario: -r-> (Actualizar catalogo)
+@enduml
