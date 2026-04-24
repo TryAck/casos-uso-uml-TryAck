@@ -31,9 +31,12 @@ Se pide:
 
 * Cliente
 * Profesional
+* Sistema
 
 ## Casos de uso
 
+* Iniciar sesión como Cliente
+* Iniciar sesión como Profesional
 * Autenticar
 * Realizar Consulta
 * Resolver Consulta
